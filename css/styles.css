@@ -1,0 +1,95 @@
+/* latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Abel Regular"), local("Abel-Regular"), url(../fonts/MwQ5bhbm2POE2V9BPQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(../fonts/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url(../fonts/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s1 {
+  min-height: 100vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s2 {
+  min-height: 50vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s3 {
+  min-height: 50vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s4 {
+  min-height: 50vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s5 {
+  min-height: 50vh;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.bg-black {
+  background-color: #000;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.font-logo {
+  font-family: "Kaushan Script", cursive;
+}
+/* line 10, ../sass/partials/_modules.scss */
+.font-menu {
+  font-family: "Abel", sans-serif;
+}
+
+/* line 15, ../sass/partials/_modules.scss */
+.img-fit {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+/* line 22, ../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 25, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 28, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
