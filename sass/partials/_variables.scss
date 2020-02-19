@@ -1,12 +1,19 @@
 $color-black: #000;
+$color-gray: #999;
 $font-logo: 'Kaushan Script', cursive; 
 $font-menu: 'Abel', sans-serif; 
 $height-full: 100vh;
 $height-half: 50vh;
+$letter-spacing-base: 1px;
 $section-full-height:
-    "index-s1";
+    "confirm-s1",
+    "error-s1",
+    "index-s1",
+    "privacy-s1";
 $section-half-height:
     "index-s2",
     "index-s3",
     "index-s4",
     "index-s5";
+$text-shadow-black: 0 1px 3px black;
+$text-shadow-gray: 0 1px 3px $color-gray;

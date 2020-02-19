@@ -18,6 +18,13 @@
         object-fit: cover;
     }
 }
+.letter{
+    &-spacing{
+        &-2{
+            letter-spacing: 2*$letter-spacing-base;
+        }
+    }
+}
 .opacity{
     &-7{
         opacity: 0.7;
@@ -28,4 +35,24 @@
     &-9{
         opacity: 0.9;
     }
+}
+.overflow{
+    &-x{
+        &-hidden{
+            overflow-x: hidden;
+        }
+    }
+}
+.text{
+    &-shadow{
+        &-black{
+            text-shadow: $text-shadow-black;
+        }
+        &-gray{
+            text-shadow: $text-shadow-gray;
+        }
+    }
+}
+textarea{
+    resize: none;
 }
